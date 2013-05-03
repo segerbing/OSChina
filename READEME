@@ -1,0 +1,2 @@
+请在工程项目下新建libs文件夹，将下载的commons-httpclient-3.1.jar包放在此文件夹下，
+然后build-path即可
