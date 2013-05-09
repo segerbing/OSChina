@@ -146,5 +146,4 @@ public class BroadCast extends BroadcastReceiver {
 		//发出通知
 		notificationManager.notify(NOTIFICATION_ID, notification);		
 	}
-	
 }

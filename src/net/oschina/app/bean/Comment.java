@@ -36,13 +36,13 @@ public class Comment extends Entity {
 	private List<Reply> replies = new ArrayList<Reply>();
 	private List<Refer> refers = new ArrayList<Refer>();
 	
-	public static class Reply implements Serializable{
+	public static class Reply implements Serializable{ //回复
 		public String rauthor;
 		public String rpubDate;
 		public String rcontent;
 	} 
 	
-	public static class Refer implements Serializable{
+	public static class Refer implements Serializable{//提交
 		public String refertitle;
 		public String referbody;
 	}
